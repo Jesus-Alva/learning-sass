@@ -1,5 +1,20 @@
-@use 'base/variables' as *;
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
 
 body {
-    background-color: green;
+    background-color: white;
+}
+
+.header {
+    @include m.telefono {
+        color: white;
+    }
+
+    @include m.tablet {
+        color: blue;
+    }
+
+    @include m.desktop {
+        color: #f9cea1;
+    }
 }

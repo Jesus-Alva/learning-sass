@@ -1,5 +1,21 @@
 body {
-  background-color: green;
+  background-color: white;
+}
+
+@media (min-width: 480px) {
+  .header .contenedor {
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  .header .contenedor {
+    color: blue;
+  }
+}
+@media (min-width: 1200px) {
+  .header .contenedor {
+    color: #f9cea1;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
