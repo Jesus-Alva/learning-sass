@@ -2,9 +2,11 @@
   "name": "learning-sass",
   "version": "1.0.0",
   "description": "Practiando SASS",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:dist/css"
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
   },
   "keywords": [
     "SASS",
@@ -14,6 +16,8 @@
   "author": "Jesus Alva Bustamante",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.85.1"
   }
 }
